@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ui_tutorial/screens/course_learning_screen.dart';
 import 'package:ui_tutorial/screens/login_screen.dart';
 
 void main() {
@@ -15,7 +16,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
-      home: LoginScreen(),
+      home: CourseLearningScreen(
+
+      ),
     );
   }
 }

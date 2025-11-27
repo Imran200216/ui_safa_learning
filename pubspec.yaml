@@ -16,6 +16,12 @@ dependencies:
 
   cupertino_icons: ^1.0.8
 
+  # SVG
+  flutter_svg: ^2.2.3
+
+  # slide to act
+  slide_to_act: ^2.0.2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -29,7 +35,8 @@ flutter:
 
 
   assets:
-    - assets/images/
+    - assets/images/png/
+    - assets/images/svg/
     - assets/fonts/
 
 
