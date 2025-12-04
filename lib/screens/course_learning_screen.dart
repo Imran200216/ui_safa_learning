@@ -72,7 +72,9 @@ class CourseLearningScreen extends StatelessWidget {
                   children: [
                     // Arrow back
                     GestureDetector(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.of(context).pop();
+                      },
                       child: CircleAvatar(
                         radius: 22,
                         backgroundColor: Colors.grey.withOpacity(0.2),
